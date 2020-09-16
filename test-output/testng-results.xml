@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Opened Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opened Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opened Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opened Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opened Chrome Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61949" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:20:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61949" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:20:28 IST">
+      <class name="testCases.Assignment1_DemoQA">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="6954" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:19:33 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC01_verifyDragAndDrop" duration-ms="3708" started-at="2020-09-15T22:19:33 IST" description="Verify drag and drop" finished-at="2020-09-15T22:19:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifyDragAndDrop -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="774" started-at="2020-09-15T22:19:36 IST" finished-at="2020-09-15T22:19:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5595" started-at="2020-09-15T22:19:38 IST" finished-at="2020-09-15T22:19:44 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC02_verifyDatePicker" duration-ms="8467" started-at="2020-09-15T22:19:44 IST" description="Verify DatePicker" data-provider="tc02TestData" finished-at="2020-09-15T22:19:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[June 29, 1989 11:00 AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyDatePicker -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2020-09-15T22:19:52 IST" finished-at="2020-09-15T22:19:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5590" started-at="2020-09-15T22:19:53 IST" finished-at="2020-09-15T22:19:58 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC03_verifySelectable() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC03_verifySelectable" duration-ms="4177" started-at="2020-09-15T22:19:58 IST" description="Verify Selectable" finished-at="2020-09-15T22:20:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifySelectable -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="766" started-at="2020-09-15T22:20:03 IST" finished-at="2020-09-15T22:20:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC03_verifySelectable() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5465" started-at="2020-09-15T22:20:03 IST" finished-at="2020-09-15T22:20:09 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC04_verifySelectMenu() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC04_verifySelectMenu" duration-ms="3971" started-at="2020-09-15T22:20:09 IST" description="Verify Select-Menu" finished-at="2020-09-15T22:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifySelectMenu -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="1016" started-at="2020-09-15T22:20:13 IST" finished-at="2020-09-15T22:20:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC04_verifySelectMenu() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5587" started-at="2020-09-15T22:20:14 IST" finished-at="2020-09-15T22:20:19 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC05_verifyPracticeForm" duration-ms="6897" started-at="2020-09-15T22:20:19 IST" description="Verify Practice Form" data-provider="tc05TestData" finished-at="2020-09-15T22:20:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ashray]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ashray@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7760242416]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Computer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Udupi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifyPracticeForm -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="1361" started-at="2020-09-15T22:20:26 IST" finished-at="2020-09-15T22:20:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Assignment1_DemoQA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
