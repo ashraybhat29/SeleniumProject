@@ -75,9 +75,9 @@ public class BaseClass {
 //	public ExtentHtmlReporter htmlReporter;
 //	public ExtentReports extent;
 //	public static ExtentTest logger;
-	public static String screenshotPath;
-	public ExtentReports report;
-	public ExtentTest logger;
+	public  String screenshotPath;
+	public static ExtentReports report;
+	public static ExtentTest logger;
 	
 	
 	
@@ -99,7 +99,7 @@ public class BaseClass {
 	report.setSystemInfo("User Name", "Ashray Bhat");
 	extent.config().setDocumentTitle("TestNG Automation ");
 	// Name of the report
-	extent.config().setReportName("Ashray Bhat ");
+	extent.config().setReportName("Extent Report for Selenium With TestNG");
 	// Dark Theme
 	extent.config().setTheme(Theme.DARK);
 	}
@@ -192,6 +192,8 @@ public class BaseClass {
 			return destination;
 		}
 	
+		
+		
 	public  void captureScreenshot(String screenshotName) throws IOException
 	{
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

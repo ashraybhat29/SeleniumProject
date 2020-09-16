@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-752580549\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1939707840\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC01_verifyDragAndDrop">TC01_verifyDragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC01_verifyDragAndDrop">TC01_verifyDragAndDrop</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)">TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)</a> <!-- method navigator-link -->
@@ -139,9 +148,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testCases.Assignment1_DemoQA</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,10 +159,53 @@
                   <a name="TC01_verifyDragAndDrop">
                   </a> <!-- TC01_verifyDragAndDrop -->
                   <span class="method-name">TC01_verifyDragAndDrop</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: imagePath cannot be null or empty
+	at com.aventstack.extentreports.ExtentTest.addScreenCaptureFromPath(ExtentTest.java:1120)
+	at com.aventstack.extentreports.ExtentTest.addScreenCaptureFromPath(ExtentTest.java:1147)
+	at com.topgear.qa.pageObjects.DemoQADroppablePage.droppablePageVerify(DemoQADroppablePage.java:39)
+	at testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop(Assignment1_DemoQA.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                   <em>
 (Verify drag and drop)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Assignment1_DemoQA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)">
@@ -197,7 +249,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-752580549\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1939707840\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -250,28 +302,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TC02_verifyDatePicker')
 data.setCell(0, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(0, 3, 7442);
+data.setCell(0, 3, 8603);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC05_verifyPracticeForm')
 data.setCell(1, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(1, 3, 5990);
+data.setCell(1, 3, 6060);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TC04_verifySelectMenu')
 data.setCell(2, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(2, 3, 3927);
+data.setCell(2, 3, 3902);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC01_verifyDragAndDrop')
+data.setCell(3, 1, 'TC03_verifySelectable')
 data.setCell(3, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(3, 3, 3483);
+data.setCell(3, 3, 3670);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC03_verifySelectable')
+data.setCell(4, 1, 'TC01_verifyDragAndDrop')
 data.setCell(4, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(4, 3, 2871);
+data.setCell(4, 3, 2525);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -304,63 +356,65 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable)</span>
-                <span class="method-start">164 ms</span>
+                <span class="method-start">172 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC01_verifyDragAndDrop</span>
-                <span class="method-start">7240 ms</span>
+                <span class="method-start">6810 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=TC01_verifyDragAndDrop status=SUCCESS method=Assignment1_DemoQA.TC01_verifyDragAndD...)</span>
-                <span class="method-start">10728 ms</span>
+                <span class="method-name">getResult([TestResult name=TC01_verifyDragAndDrop status=FAILURE method=Assignment1_DemoQA.TC01_verifyDragAndD...)</span>
+                <span class="method-start">9344 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">13846 ms</span>
+                <span class="method-start">12048 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)</span>
-                <span class="method-start">19653 ms</span>
+                <span class="method-start">17627 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC02_verifyDatePicker status=SUCCESS method=Assignment1_DemoQA.TC02_verifyDatePicke...)</span>
-                <span class="method-start">27098 ms</span>
+                <span class="method-start">26232 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC03_verifySelectable() throws java.lang.Throwable)</span>
-                <span class="method-start">28318 ms</span>
+                <span class="method-start">27441 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_verifySelectable</span>
-                <span class="method-start">34014 ms</span>
+                <span class="method-start">33184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC03_verifySelectable status=SUCCESS method=Assignment1_DemoQA.TC03_verifySelectabl...)</span>
-                <span class="method-start">36886 ms</span>
+                <span class="method-start">36856 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC04_verifySelectMenu() throws java.lang.Throwable)</span>
-                <span class="method-start">38173 ms</span>
+                <span class="method-start">38072 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_verifySelectMenu</span>
-                <span class="method-start">43685 ms</span>
+                <span class="method-start">43706 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC04_verifySelectMenu status=SUCCESS method=Assignment1_DemoQA.TC04_verifySelectMen...)</span>
-                <span class="method-start">47614 ms</span>
+                <span class="method-start">47611 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String,java.lang.St...)</span>
-                <span class="method-start">49080 ms</span>
+                <span class="method-start">48841 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</span>
-                <span class="method-start">54603 ms</span>
+                <span class="method-start">54496 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC05_verifyPracticeForm status=SUCCESS method=Assignment1_DemoQA.TC05_verifyPractic...)</span>
-                <span class="method-start">60595 ms</span>
+                <span class="method-start">60560 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

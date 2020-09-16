@@ -1,8 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.47 s <<< FAILURE! - in TestSuite
-TC02_verifyDatePicker(testCases.Assignment1_DemoQA)  Time elapsed: 2.427 s  <<< FAILURE!
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 55.301 s <<< FAILURE! - in TestSuite
+TC01_verifyDragAndDrop(testCases.Assignment1_DemoQA)  Time elapsed: 2.716 s  <<< FAILURE!
 java.lang.IllegalArgumentException: imagePath cannot be null or empty
-	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:42)
+	at testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop(Assignment1_DemoQA.java:28)
+
+TC02_verifyDatePicker(testCases.Assignment1_DemoQA)  Time elapsed: 2.72 s  <<< FAILURE!
+java.lang.IllegalArgumentException: imagePath cannot be null or empty
+	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:48)
+
+TC03_verifySelectable(testCases.Assignment1_DemoQA)  Time elapsed: 2.347 s  <<< FAILURE!
+java.lang.IllegalArgumentException: imagePath cannot be null or empty
+	at testCases.Assignment1_DemoQA.TC03_verifySelectable(Assignment1_DemoQA.java:74)
+
+TC04_verifySelectMenu(testCases.Assignment1_DemoQA)  Time elapsed: 2.442 s  <<< FAILURE!
+java.lang.IllegalArgumentException: imagePath cannot be null or empty
+	at testCases.Assignment1_DemoQA.TC04_verifySelectMenu(Assignment1_DemoQA.java:93)
 

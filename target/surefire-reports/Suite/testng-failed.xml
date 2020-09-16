@@ -5,10 +5,13 @@
     <classes>
       <class name="testCases.Assignment1_DemoQA">
         <methods>
+          <include name="TC03_verifySelectable"/>
           <include name="TC02_verifyDatePicker" invocation-numbers="0"/>
           <include name="getResult"/>
-          <include name="startReport"/>
+          <include name="TC01_verifyDragAndDrop"/>
+          <include name="setUpSuite"/>
           <include name="beforeMethod"/>
+          <include name="TC04_verifySelectMenu"/>
         </methods>
       </class> <!-- testCases.Assignment1_DemoQA -->
     </classes>

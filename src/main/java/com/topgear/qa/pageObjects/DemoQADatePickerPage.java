@@ -34,6 +34,8 @@ public class DemoQADatePickerPage extends BaseClass implements DemoQADatePickerP
 			driver.get("https://demoqa.com/date-picker/");
 			String datePicker = baseClass.getVisibleElement(datePickerText).getText();
 			Assert.assertEquals(datePicker,"Date Picker");
+			screenshotPath = getScreenShot(driver, "datePicker Loaded");
+			logger.pass("datePicker Loaded " + logger.addScreenCaptureFromPath(screenshotPath));
 			//logger.pass("Date Picker Page page loaded Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
 			//baseClass.logger.log(LogStatus.PASS, " Date Picker Page page loaded" + baseClass.logger.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 

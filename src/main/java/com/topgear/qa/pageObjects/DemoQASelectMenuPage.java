@@ -20,7 +20,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.topgear.qa.base.BaseClass;
 import com.topgear.qa.xpaths.DemoQASelectMenuPageXpath;
 
-public class DemoQASelectMenuPage implements DemoQASelectMenuPageXpath
+public class DemoQASelectMenuPage extends BaseClass implements DemoQASelectMenuPageXpath
 {
 	private static Logger log = LogManager.getLogger(DemoQASelectMenuPage.class);
 	public String hexbtnBackgroundColor;
@@ -39,6 +39,8 @@ public class DemoQASelectMenuPage implements DemoQASelectMenuPageXpath
 			driver.get("https://demoqa.com/select-menu/");
 			String selectMenu = baseClass.getVisibleElement(selectMenuText).getText();
 			Assert.assertEquals(selectMenu,"Select Menu");
+			screenshotPath = getScreenShot(driver, "select-menu Loaded");
+			logger.pass("select-menu page loaded " + logger.addScreenCaptureFromPath(screenshotPath));
 			//baseClass.test.log(LogStatus.PASS, " select-menu page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
@@ -78,7 +80,7 @@ public class DemoQASelectMenuPage implements DemoQASelectMenuPageXpath
 			String btn1backgroundColor= driver.findElement(afterselection).getCssValue("background-color");
 			System.out.println(btn1backgroundColor);
 			hexbtnBackgroundColor=Color.fromString(btn1backgroundColor).asHex();
-			
+			logger.pass("Value selected from select-menu page ");
 		//	baseClass.test.log(LogStatus.PASS, " Value selected from select-menu page" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{

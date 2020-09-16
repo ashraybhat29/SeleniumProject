@@ -15,7 +15,7 @@ import com.topgear.qa.xpaths.DemoQADroppablePageXpath;
 
 
 
-public class DemoQADroppablePage implements DemoQADroppablePageXpath 
+public class DemoQADroppablePage extends BaseClass implements DemoQADroppablePageXpath 
 {
 
 	private static Logger log = LogManager.getLogger(DemoQADroppablePage.class);
@@ -36,7 +36,8 @@ public class DemoQADroppablePage implements DemoQADroppablePageXpath
 			driver.get("https://demoqa.com/droppable/");
 			String droppable = baseClass.getVisibleElement(droppableText).getText();
 			Assert.assertEquals("Droppable",droppable);
-			
+			screenshotPath = getScreenShot(driver, "Droppable Loaded");
+			logger.pass("Droppable Loaded " + logger.addScreenCaptureFromPath(screenshotPath));
 		//	baseClass.test.log(LogStatus.PASS, " Droppable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
@@ -55,7 +56,7 @@ public class DemoQADroppablePage implements DemoQADroppablePageXpath
 			actions.dragAndDrop(baseClass.getVisibleElement(dragMe), baseClass.getVisibleElement(dropHere)).perform();
 			droppedMessage = baseClass.getVisibleElement(droppedMsg).getText();
 			
-			// baseClass.test.log(LogStatus.PASS, " Drag and Drop is sucess" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			logger.pass("Drag and Drop successfull " + logger.addScreenCaptureFromPath(screenshotPath));
 			} 	catch (Exception e) 
 				{
 				log.error("Failed to drag element");

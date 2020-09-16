@@ -14,7 +14,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.topgear.qa.base.BaseClass;
 import com.topgear.qa.xpaths.DemoQASelectablePageXpath;
 
-public class DemoQASelectablePage implements DemoQASelectablePageXpath
+public class DemoQASelectablePage extends BaseClass implements DemoQASelectablePageXpath
 {
 	private static Logger log = LogManager.getLogger(DemoQASelectablePage.class);
 	public String hexbtnBackgroundColor;
@@ -32,6 +32,8 @@ public class DemoQASelectablePage implements DemoQASelectablePageXpath
 			driver.get("https://demoqa.com/selectable/");
 			String Selectable = baseClass.getVisibleElement(selectableText).getText();
 			Assert.assertEquals(Selectable,"Selectable");
+			screenshotPath = getScreenShot(driver, "Selectable Loaded");
+			logger.pass("Selectable page loaded " + logger.addScreenCaptureFromPath(screenshotPath));
 			//baseClass.test.log(LogStatus.PASS, " Selectable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
@@ -57,6 +59,7 @@ public class DemoQASelectablePage implements DemoQASelectablePageXpath
 			System.out.println(btn1backgroundColor);
 			hexbtnBackgroundColor=Color.fromString(btn1backgroundColor).asHex();
 			System.out.println("background color:"+hexbtnBackgroundColor);
+			logger.pass("Items are selected " );
 		//	baseClass.test.log(LogStatus.PASS, " Items are selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{	log.error("Items are not selected");

@@ -32,7 +32,7 @@ public class DemoQAPracticeFormPage extends BaseClass implements DemoQAPracticeF
 			String practiceFormName = baseClass.getVisibleElement(formname).getText();
 			Assert.assertEquals("Practice Form",practiceFormName);
 			screenshotPath = getScreenShot(driver, "practiceFormPage Loaded");
-			//baseClass.test.log(LogStatus.PASS, " Practice Form page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			logger.pass("practiceFormPage Loaded " + logger.addScreenCaptureFromPath(screenshotPath));
 			}	catch (Exception e) 
 				{
 				log.error("Practice Form page not loaded");
