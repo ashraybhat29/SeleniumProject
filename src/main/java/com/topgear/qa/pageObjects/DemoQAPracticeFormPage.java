@@ -12,7 +12,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.topgear.qa.base.BaseClass;
 import com.topgear.qa.xpaths.DemoQAPracticeFormPageXpath;
 
-public class DemoQAPracticeFormPage implements DemoQAPracticeFormPageXpath 
+public class DemoQAPracticeFormPage extends BaseClass implements DemoQAPracticeFormPageXpath 
 {
 	private static Logger log = LogManager.getLogger(DemoQAPracticeFormPage.class);
 	public String ExpectedMsg;
@@ -31,12 +31,13 @@ public class DemoQAPracticeFormPage implements DemoQAPracticeFormPageXpath
 			driver.get("http://demoqa.com/automation-practice-form");
 			String practiceFormName = baseClass.getVisibleElement(formname).getText();
 			Assert.assertEquals("Practice Form",practiceFormName);
-			baseClass.test.log(LogStatus.PASS, " Practice Form page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			screenshotPath = getScreenShot(driver, "practiceFormPage Loaded");
+			//baseClass.test.log(LogStatus.PASS, " Practice Form page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Practice Form page not loaded");
-				baseClass.test.log(LogStatus.FAIL,
-					"Practice Form page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//				baseClass.test.log(LogStatus.FAIL,
+//					"Practice Form page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			throw e;
 		}
 		
@@ -90,14 +91,14 @@ public class DemoQAPracticeFormPage implements DemoQAPracticeFormPageXpath
 			baseClass.getVisibleElement(submit).click();
 			ExpectedMsg = baseClass.getVisibleElement(thanksmsg).getText();
 			
-			baseClass.test.log(LogStatus.PASS, " Practice Form Filled successfully" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
-			baseClass.getVisibleElement(close).click();
+			//baseClass.test.log(LogStatus.PASS, " Practice Form Filled successfully" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			//baseClass.getVisibleElement(close).click();
 			
 			} 	catch (Exception e)
 				{
 				log.error("Failed filling the form");
-					baseClass.test.log(LogStatus.FAIL,
-					"Failed filling the form " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//					"Failed filling the form " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 	}

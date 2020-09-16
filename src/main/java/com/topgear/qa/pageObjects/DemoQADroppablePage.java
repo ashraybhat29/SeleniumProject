@@ -36,13 +36,14 @@ public class DemoQADroppablePage implements DemoQADroppablePageXpath
 			driver.get("https://demoqa.com/droppable/");
 			String droppable = baseClass.getVisibleElement(droppableText).getText();
 			Assert.assertEquals("Droppable",droppable);
-			baseClass.test.log(LogStatus.PASS, " Droppable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			
+		//	baseClass.test.log(LogStatus.PASS, " Droppable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Droppable page not loaded");
-				baseClass.test.log(LogStatus.FAIL,
-					"Droppable page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
-				throw e;
+//				baseClass.test.log(LogStatus.FAIL,
+//					"Droppable page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			throw e;
 				}
 		
 	}
@@ -53,12 +54,13 @@ public class DemoQADroppablePage implements DemoQADroppablePageXpath
 			Actions actions = new Actions(driver);
 			actions.dragAndDrop(baseClass.getVisibleElement(dragMe), baseClass.getVisibleElement(dropHere)).perform();
 			droppedMessage = baseClass.getVisibleElement(droppedMsg).getText();
-			 baseClass.test.log(LogStatus.PASS, " Drag and Drop is sucess" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			
+			// baseClass.test.log(LogStatus.PASS, " Drag and Drop is sucess" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			} 	catch (Exception e) 
 				{
 				log.error("Failed to drag element");
-					baseClass.test.log(LogStatus.FAIL,
-							"Failed to drag element " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//							"Failed to drag element " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 	}  

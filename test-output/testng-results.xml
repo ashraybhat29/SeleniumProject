@@ -17,12 +17,16 @@
       <![CDATA[Opened Chrome Browser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61949" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:20:28 IST">
+  <suite name="Default suite" duration-ms="61843" started-at="2020-09-16T23:25:46 IST" finished-at="2020-09-16T23:26:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61949" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:20:28 IST">
+    <test name="Default test" duration-ms="61843" started-at="2020-09-16T23:25:46 IST" finished-at="2020-09-16T23:26:48 IST">
       <class name="testCases.Assignment1_DemoQA">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="6954" started-at="2020-09-15T22:19:26 IST" finished-at="2020-09-15T22:19:33 IST">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="setUpSuite" is-config="true" duration-ms="136" started-at="2020-09-16T23:25:46 IST" finished-at="2020-09-16T23:25:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="7075" started-at="2020-09-16T23:25:46 IST" finished-at="2020-09-16T23:25:53 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -39,22 +43,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC01_verifyDragAndDrop" duration-ms="3708" started-at="2020-09-15T22:19:33 IST" description="Verify drag and drop" finished-at="2020-09-15T22:19:36 IST">
+        <test-method status="PASS" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC01_verifyDragAndDrop" duration-ms="3483" started-at="2020-09-16T23:25:53 IST" description="Verify drag and drop" finished-at="2020-09-16T23:25:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_verifyDragAndDrop -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="774" started-at="2020-09-15T22:19:36 IST" finished-at="2020-09-15T22:19:37 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1642" started-at="2020-09-16T23:25:56 IST" finished-at="2020-09-16T23:25:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable]]>
+                <![CDATA[[TestResult name=TC01_verifyDragAndDrop status=SUCCESS method=Assignment1_DemoQA.TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5595" started-at="2020-09-15T22:19:38 IST" finished-at="2020-09-15T22:19:44 IST">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="5806" started-at="2020-09-16T23:26:00 IST" finished-at="2020-09-16T23:26:05 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -71,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC02_verifyDatePicker" duration-ms="8467" started-at="2020-09-15T22:19:44 IST" description="Verify DatePicker" data-provider="tc02TestData" finished-at="2020-09-15T22:19:52 IST">
+        <test-method status="PASS" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC02_verifyDatePicker" duration-ms="7442" started-at="2020-09-16T23:26:05 IST" description="Verify DatePicker" data-provider="tc02TestData" finished-at="2020-09-16T23:26:13 IST">
           <params>
             <param index="0">
               <value>
@@ -97,18 +101,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_verifyDatePicker -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2020-09-15T22:19:52 IST" finished-at="2020-09-15T22:19:53 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1218" started-at="2020-09-16T23:26:13 IST" finished-at="2020-09-16T23:26:14 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+                <![CDATA[[TestResult name=TC02_verifyDatePicker status=SUCCESS method=Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5590" started-at="2020-09-15T22:19:53 IST" finished-at="2020-09-15T22:19:58 IST">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="5696" started-at="2020-09-16T23:26:14 IST" finished-at="2020-09-16T23:26:20 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -125,22 +129,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC03_verifySelectable" duration-ms="4177" started-at="2020-09-15T22:19:58 IST" description="Verify Selectable" finished-at="2020-09-15T22:20:03 IST">
+        <test-method status="PASS" signature="TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC03_verifySelectable" duration-ms="2871" started-at="2020-09-16T23:26:20 IST" description="Verify Selectable" finished-at="2020-09-16T23:26:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_verifySelectable -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="766" started-at="2020-09-15T22:20:03 IST" finished-at="2020-09-15T22:20:03 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1285" started-at="2020-09-16T23:26:23 IST" finished-at="2020-09-16T23:26:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC03_verifySelectable() throws java.lang.Throwable]]>
+                <![CDATA[[TestResult name=TC03_verifySelectable status=SUCCESS method=Assignment1_DemoQA.TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5465" started-at="2020-09-15T22:20:03 IST" finished-at="2020-09-15T22:20:09 IST">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="5512" started-at="2020-09-16T23:26:24 IST" finished-at="2020-09-16T23:26:29 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -157,22 +161,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC04_verifySelectMenu" duration-ms="3971" started-at="2020-09-15T22:20:09 IST" description="Verify Select-Menu" finished-at="2020-09-15T22:20:13 IST">
+        <test-method status="PASS" signature="TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC04_verifySelectMenu" duration-ms="3927" started-at="2020-09-16T23:26:29 IST" description="Verify Select-Menu" finished-at="2020-09-16T23:26:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_verifySelectMenu -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="1016" started-at="2020-09-15T22:20:13 IST" finished-at="2020-09-15T22:20:14 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1392" started-at="2020-09-16T23:26:33 IST" finished-at="2020-09-16T23:26:35 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC04_verifySelectMenu() throws java.lang.Throwable]]>
+                <![CDATA[[TestResult name=TC04_verifySelectMenu status=SUCCESS method=Assignment1_DemoQA.TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="beforeMethod" is-config="true" duration-ms="5587" started-at="2020-09-15T22:20:14 IST" finished-at="2020-09-15T22:20:19 IST">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="5523" started-at="2020-09-16T23:26:35 IST" finished-at="2020-09-16T23:26:40 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -189,7 +193,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="TC05_verifyPracticeForm" duration-ms="6897" started-at="2020-09-15T22:20:19 IST" description="Verify Practice Form" data-provider="tc05TestData" finished-at="2020-09-15T22:20:26 IST">
+        <test-method status="PASS" signature="TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC05_verifyPracticeForm" duration-ms="5990" started-at="2020-09-16T23:26:40 IST" description="Verify Practice Form" data-provider="tc05TestData" finished-at="2020-09-16T23:26:46 IST">
           <params>
             <param index="0">
               <value>
@@ -250,17 +254,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_verifyPracticeForm -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@1e66f1f5]" name="closeBrowser" is-config="true" duration-ms="1361" started-at="2020-09-15T22:20:26 IST" finished-at="2020-09-15T22:20:28 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1233" started-at="2020-09-16T23:26:46 IST" finished-at="2020-09-16T23:26:48 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+                <![CDATA[[TestResult name=TC05_verifyPracticeForm status=SUCCESS method=Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- getResult -->
       </class> <!-- testCases.Assignment1_DemoQA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

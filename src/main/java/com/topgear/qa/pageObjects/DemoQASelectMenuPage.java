@@ -39,12 +39,12 @@ public class DemoQASelectMenuPage implements DemoQASelectMenuPageXpath
 			driver.get("https://demoqa.com/select-menu/");
 			String selectMenu = baseClass.getVisibleElement(selectMenuText).getText();
 			Assert.assertEquals(selectMenu,"Select Menu");
-			baseClass.test.log(LogStatus.PASS, " select-menu page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			//baseClass.test.log(LogStatus.PASS, " select-menu page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Select-menu page not loaded ");
-					baseClass.test.log(LogStatus.FAIL,
-					"select-menu page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//					"select-menu page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 		
@@ -79,12 +79,12 @@ public class DemoQASelectMenuPage implements DemoQASelectMenuPageXpath
 			System.out.println(btn1backgroundColor);
 			hexbtnBackgroundColor=Color.fromString(btn1backgroundColor).asHex();
 			
-			baseClass.test.log(LogStatus.PASS, " Value selected from select-menu page" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+		//	baseClass.test.log(LogStatus.PASS, " Value selected from select-menu page" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Value not selected from select-menu page ");
-					baseClass.test.log(LogStatus.FAIL,
-					"Value not selected from select-menu page" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//					"Value not selected from select-menu page" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 					throw e;
 				}
 		

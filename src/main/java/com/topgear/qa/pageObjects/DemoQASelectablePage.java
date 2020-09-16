@@ -32,12 +32,12 @@ public class DemoQASelectablePage implements DemoQASelectablePageXpath
 			driver.get("https://demoqa.com/selectable/");
 			String Selectable = baseClass.getVisibleElement(selectableText).getText();
 			Assert.assertEquals(Selectable,"Selectable");
-			baseClass.test.log(LogStatus.PASS, " Selectable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			//baseClass.test.log(LogStatus.PASS, " Selectable page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Selectable page not loaded");
-					baseClass.test.log(LogStatus.FAIL,
-							"Selectable page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//							"Selectable page not loaded " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 		
@@ -57,11 +57,11 @@ public class DemoQASelectablePage implements DemoQASelectablePageXpath
 			System.out.println(btn1backgroundColor);
 			hexbtnBackgroundColor=Color.fromString(btn1backgroundColor).asHex();
 			System.out.println("background color:"+hexbtnBackgroundColor);
-			baseClass.test.log(LogStatus.PASS, " Items are selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+		//	baseClass.test.log(LogStatus.PASS, " Items are selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{	log.error("Items are not selected");
-					baseClass.test.log(LogStatus.FAIL,
-					"Items are not selected " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//					"Items are not selected " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 	}

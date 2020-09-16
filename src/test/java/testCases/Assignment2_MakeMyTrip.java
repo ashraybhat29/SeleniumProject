@@ -11,7 +11,8 @@
 //	@Test(description = "abcd")
 //	public void bookTikcet() throws Throwable 
 //	{
-//		iTestResult= Reporter.getCurrentTestResult();
+//		//iTestResult= Reporter.getCurrentTestResult();
+//		logger = extent.createTest("TC02_verifyDatePicker");
 //		driver.get("https://www.makemytrip.com/");
 //		makemytrip.clickOnOneWay();
 //		makemytrip.selectFromAndTo("Mumbai, India","Goa, India");

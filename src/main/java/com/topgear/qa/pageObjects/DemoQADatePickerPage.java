@@ -34,12 +34,13 @@ public class DemoQADatePickerPage extends BaseClass implements DemoQADatePickerP
 			driver.get("https://demoqa.com/date-picker/");
 			String datePicker = baseClass.getVisibleElement(datePickerText).getText();
 			Assert.assertEquals(datePicker,"Date Picker");
-			baseClass.test.log(LogStatus.PASS, " Date Picker Page page loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			//logger.pass("Date Picker Page page loaded Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
+			//baseClass.logger.log(LogStatus.PASS, " Date Picker Page page loaded" + baseClass.logger.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Date Picker page not loaded");
-					baseClass.test.log(LogStatus.FAIL,
-							"Date Picker page not loaded" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+				//	baseClass.logger.log(LogStatus.FAIL,
+						//	"Date Picker page not loaded" + baseClass.logger.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 		
@@ -115,12 +116,13 @@ public class DemoQADatePickerPage extends BaseClass implements DemoQADatePickerP
 //			}
 			baseClass.getVisibleElement(datePickerText).click();
 			dateandtime = baseClass.getVisibleElement(dateAndTime).getAttribute("value");
-			baseClass.test.log(LogStatus.PASS, " Date of Birth selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+			//logger.pass("Date of Birth selected Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
+			//baseClass.test.log(LogStatus.PASS, " Date of Birth selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
 				{
 				log.error("Date of Birth not selected ");
-					baseClass.test.log(LogStatus.FAIL,
-							"Date of Birth not selected " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
+//					baseClass.test.log(LogStatus.FAIL,
+//							"Date of Birth not selected " + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 				throw e;
 				}
 	}
