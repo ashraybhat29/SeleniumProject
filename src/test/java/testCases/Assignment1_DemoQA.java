@@ -32,8 +32,8 @@ public class Assignment1_DemoQA extends BaseClass
 			
 			droppage.dragAndDrop();
 			
-			String Expected = droppage.droppedMessage;
-			Assert.assertEquals("Dropped!", Expected);	
+			String Actual = droppage.droppedMessage;
+			Assert.assertEquals(Actual, "Dropped!");	
 			
 			log.info("Drag and drop operation performed successfully");	
 			logger.pass("Drag and drop operation performed successfully");
@@ -52,8 +52,9 @@ public class Assignment1_DemoQA extends BaseClass
 			
 			datepick.selectDOB(month,date,year,dateandtime);
 			
-			String Expected = datepick.dateandtime;
-			Assert.assertEquals(""+dateandtime+"", Expected);
+			String Actual = datepick.ActualValue;
+			
+			Assert.assertEquals(Actual, ""+dateandtime+"");
 			
 			log.info("Date of Birth selected successfully");
 			logger.pass("Date of Birth selected successfully");
@@ -77,8 +78,8 @@ public class Assignment1_DemoQA extends BaseClass
 			logger.info("selectable page is loaded");
 			selectable.selectItem();
 			
-			String Expected = selectable.hexbtnBackgroundColor;
-			Assert.assertEquals("#007bff", Expected);
+			String Actual = selectable.hexbtnBackgroundColor;
+			Assert.assertEquals( Actual, "#007bff");
 			
 			log.info("All 4 Items selected successfully");
 			logger.pass("All 4 Items selected successfully");
@@ -97,8 +98,8 @@ public class Assignment1_DemoQA extends BaseClass
 			
 			selectmenu.selectSelectValue("Blue");
 			
-			String Expected = selectmenu.hexbtnBackgroundColor;
-			Assert.assertEquals("#ffffff", Expected);
+			String Actual = selectmenu.hexbtnBackgroundColor;
+			Assert.assertEquals( Actual, "#ffffff");
 			
 			log.info("Selection performed successfully");
 			logger.pass("Selection performed successfully");
@@ -119,8 +120,8 @@ public class Assignment1_DemoQA extends BaseClass
 			practiceform.fillForm( fname, lname,  emailid, gender,  mobilenumber,
 					 month, date, year,  sub, hobbies, address);
 			
-			String ExpectedMsg = practiceform.ExpectedMsg;
-			Assert.assertEquals("Thanks for submitting the form",ExpectedMsg);
+			String ActualMsg = practiceform.ExpectedMsg;
+			Assert.assertEquals(ActualMsg,"Thanks for submitting the form");
 			
 			log.info("Practice Form filled and submitted successfully");
 			logger.pass("Practice Form filled and submitted successfully");

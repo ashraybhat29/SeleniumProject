@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="55.301" tests="5" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="164.464" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
@@ -64,62 +64,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC01_verifyDragAndDrop" classname="testCases.Assignment1_DemoQA" time="2.716">
-    <failure message="imagePath cannot be null or empty" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: imagePath cannot be null or empty
-	at testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop(Assignment1_DemoQA.java:28)
+  <testcase name="TC01_verifyDragAndDrop" classname="testCases.Assignment1_DemoQA" time="24.094"/>
+  <testcase name="TC02_verifyDatePicker" classname="testCases.Assignment1_DemoQA" time="28.229">
+    <failure message="did not expect to find [June 29, 1989 11:00 AM] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [June 29, 1989 11:00 AM] but found [null]
+	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:57)
 </failure>
-    <system-out><![CDATA[00:37:33.548 [main] ERROR com.topgear.qa.pageObjects.DemoQADroppablePage - Droppable page not loaded
+    <system-out><![CDATA[date is06/29/1989
 ]]></system-out>
-    <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 11500
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 9717
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 17, 2020 12:37:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 17, 2020 7:08:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="TC02_verifyDatePicker" classname="testCases.Assignment1_DemoQA" time="2.72">
-    <failure message="imagePath cannot be null or empty" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: imagePath cannot be null or empty
-	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:48)
-</failure>
-    <system-out><![CDATA[00:37:45.022 [main] ERROR com.topgear.qa.pageObjects.DemoQADatePickerPage - Date Picker page not loaded
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47952
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 12:37:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="TC03_verifySelectable" classname="testCases.Assignment1_DemoQA" time="2.347">
-    <failure message="imagePath cannot be null or empty" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: imagePath cannot be null or empty
-	at testCases.Assignment1_DemoQA.TC03_verifySelectable(Assignment1_DemoQA.java:74)
-</failure>
-    <system-out><![CDATA[00:37:54.134 [main] ERROR com.topgear.qa.pageObjects.DemoQASelectablePage - Selectable page not loaded
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 6096
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 12:37:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="TC04_verifySelectMenu" classname="testCases.Assignment1_DemoQA" time="2.442">
-    <failure message="imagePath cannot be null or empty" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: imagePath cannot be null or empty
-	at testCases.Assignment1_DemoQA.TC04_verifySelectMenu(Assignment1_DemoQA.java:93)
-</failure>
-    <system-out><![CDATA[00:38:03.455 [main] ERROR com.topgear.qa.pageObjects.DemoQASelectMenuPage - Select-menu page not loaded 
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46079
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 12:37:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="TC05_verifyPracticeForm" classname="testCases.Assignment1_DemoQA" time="6.029"/>
+  <testcase name="TC03_verifySelectable" classname="testCases.Assignment1_DemoQA" time="18.898"/>
+  <testcase name="TC04_verifySelectMenu" classname="testCases.Assignment1_DemoQA" time="31.039"/>
+  <testcase name="TC05_verifyPracticeForm" classname="testCases.Assignment1_DemoQA" time="24.366"/>
 </testsuite>

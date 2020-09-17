@@ -21,6 +21,7 @@ public class DemoQADatePickerPage extends BaseClass implements DemoQADatePickerP
 	WebDriver driver = null;
 	BaseClass baseClass = null;
 	public String dateandtime;
+	public String ActualValue;
 
 	public DemoQADatePickerPage(BaseClass baseClass)
 	{
@@ -69,55 +70,8 @@ public class DemoQADatePickerPage extends BaseClass implements DemoQADatePickerP
 			actions.keyDown(Keys.CONTROL).sendKeys("x").keyUp(Keys.CONTROL).perform();
 			
 			baseClass.getVisibleElement(dateAndTime).sendKeys(dobtime);
-//			baseClass.getVisibleElement(dateandTimeMonth).click();
-//			List<WebElement> getAllMonth =baseClass.getAllElements(dateandTimeMonth1to12);
-//			for(WebElement mo:getAllMonth)
-//			{
-//				String m = mo.getText();
-//				if(m.equalsIgnoreCase(month))
-//				{
-//					mo.click();
-//					Thread.sleep(5000);
-//					break;
-//				}
-//				else
-//				{
-//					System.out.println("Enter valid month");
-//				}
-//			}
-//			baseClass.getVisibleElement(dateandTimeYear).click();
-//			List<WebElement> getAllYear =baseClass.getAllElements(dateandTimeYear1to10);
-//			for(WebElement yr:getAllYear)
-//			{
-//				String y = yr.getText();
-//				if(y.equalsIgnoreCase(year))
-//				{
-//					yr.click();
-//					System.out.println("2nd year");
-//					break;
-//				}
-//				else
-//				{
-//					System.out.println("Enter valid year");
-//				}
-//			}
-//			baseClass.getVisibleElement(By.xpath("//div[@class='react-datepicker__day react-datepicker__day--0"+date+"']")).click();
-//			List<WebElement> getAllTime =baseClass.getAllElements(selectTime);
-//			for(WebElement time:getAllTime)
-//			{
-//				String t = time.getText();
-//				if(t.equalsIgnoreCase(dobtime))
-//				{
-//					time.click();
-//					break;
-//				}
-//				else
-//				{
-//					System.out.println("Enter valid time");
-//				}
-//			}
-			baseClass.getVisibleElement(datePickerText).click();
-			dateandtime = baseClass.getVisibleElement(dateAndTime).getAttribute("value");
+			 ActualValue = baseClass.getVisibleElement(dateAndTime).getAttribute("value");
+			System.out.println("actauslsdad"+ActualValue);
 			//logger.pass("Date of Birth selected Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
 			//baseClass.test.log(LogStatus.PASS, " Date of Birth selected" + baseClass.test.addBase64ScreenShot(baseClass.getBase64Image()));
 			}	catch (Exception e) 
