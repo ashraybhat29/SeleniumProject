@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Assignment1_DemoQA">
+      <class name="testCases.Assignment2_MakeMyTrip">
         <methods>
-          <include name="TC02_verifyDatePicker" invocation-numbers="0"/>
+          <include name="bookTikcet"/>
           <include name="getResult"/>
           <include name="setUpSuite"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testCases.Assignment1_DemoQA -->
+      </class> <!-- testCases.Assignment2_MakeMyTrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
