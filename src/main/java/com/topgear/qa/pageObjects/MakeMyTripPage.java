@@ -193,9 +193,7 @@ public class MakeMyTripPage  extends BaseClass   implements MakeMyTripPageXpath
 	public void reviewPage() throws Exception
 	{
 		try {
-				reviewMsg  = baseClass.getVisibleElement(reviewLabel).getText();
-			
-		    
+			reviewMsg  = baseClass.getVisibleElement(reviewLabel).getText();
 		    screenshotPath = getScreenShot(driver, "Review");
 			logger.pass("Review Page Verified" + logger.addScreenCaptureFromPath(screenshotPath));
 		}	catch (Exception e) {

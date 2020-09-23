@@ -39,20 +39,20 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.topgear.qa.pageObjects.*;
 
 public class BaseClass {
-	public static WebDriver driver = null;
+	public static WebDriver 		driver 			= null;
 
-	public DemoQADroppablePage droppage = null;
-	public DemoQADatePickerPage datepick = null;
-	public DemoQASelectablePage selectable = null;
-	public MakeMyTripPage makemytrip = null;
-	public DemoQASelectMenuPage selectmenu = null;
-	public DemoQAPracticeFormPage practiceform = null;
+	public DemoQADroppablePage 		droppage 		= null;
+	public DemoQADatePickerPage 	datepick 		= null;
+	public DemoQASelectablePage 	selectable 		= null;
+	public MakeMyTripPage 			makemytrip 		= null;
+	public DemoQASelectMenuPage 	selectmenu 		= null;
+	public DemoQAPracticeFormPage 	practiceform 	= null;
 
-	public String screenshotPath;
-	public static ExtentReports report;
-	public static ExtentTest logger;
+	public String 					screenshotPath;
+	public static ExtentReports 	report;
+	public static ExtentTest 		logger;
 
-	public String defaultBrowser = "chrome";
+	public String 					defaultBrowser 	= "chrome";
 
 	@BeforeTest
 	public void setUpSuite() {
@@ -83,11 +83,11 @@ public class BaseClass {
 			this.openBrowser(defaultBrowser);
 		}
 
-		droppage = new DemoQADroppablePage(this);
-		datepick = new DemoQADatePickerPage(this);
-		selectable = new DemoQASelectablePage(this);
-		selectmenu = new DemoQASelectMenuPage(this);
-		makemytrip = new MakeMyTripPage(this);
+		droppage	 = new DemoQADroppablePage(this);
+		datepick 	 = new DemoQADatePickerPage(this);
+		selectable	 = new DemoQASelectablePage(this);
+		selectmenu 	 = new DemoQASelectMenuPage(this);
+		makemytrip	 = new MakeMyTripPage(this);
 		practiceform = new DemoQAPracticeFormPage(this);
 	}
 
@@ -100,12 +100,12 @@ public class BaseClass {
 			Reporter.log("Opened Chrome Browser");
 		} else if (webBrowser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
-					System.getProperty("user.dir") + "//src/main//java//resources//geckodriver.exe");
+					System.getProperty("user.dir") + "\\src\\main\\java\\com\\topgear\\qa\\resources\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			Reporter.log("Opened firefox Browser");
 		} else if (webBrowser.equalsIgnoreCase("IE")) {
 			System.setProperty("webdriver.ie.driver",
-					System.getProperty("user.dir") + "//src//main//java//resources//IEDriverServer.exe");
+					System.getProperty("user.dir") + "\\src\\main\\java\\com\\topgear\\qa\\resources\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			Reporter.log("Opened IE Browser");
 		}
@@ -158,13 +158,13 @@ public class BaseClass {
 		return destination;
 	}
 
-	public void captureScreenshot(String screenshotName) throws IOException {
-		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file,
-				new File(System.getProperty("user.dir") + "/resources.Screenshots/" + screenshotName + ".jpg"));
-		System.out.println("Screenshot " + screenshotName + "saved successfully under resources folder");
-		Reporter.log("Captured the screenshot and saved under resources folder");
-	}
+//	public void captureScreenshot(String screenshotName) throws IOException {
+//		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//		FileUtils.copyFile(file,
+//				new File(System.getProperty("user.dir") + "/resources.Screenshots/" + screenshotName + ".jpg"));
+//		System.out.println("Screenshot " + screenshotName + "saved successfully under resources folder");
+//		Reporter.log("Captured the screenshot and saved under resources folder");
+//	}
 
 	public static String getCurrentDateTime() {
 		DateFormat customeFormat = new SimpleDateFormat("MM_dd_yyy_HH_mm_ss");
