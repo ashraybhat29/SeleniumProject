@@ -33,7 +33,7 @@ public class Assignment1_DemoQA extends BaseClass
 			droppage.dragAndDrop();
 			
 			String Actual = droppage.droppedMessage;
-			Assert.assertEquals(Actual, "Dropped!");	
+			Assert.assertEquals(Actual, "Dropped");	
 			
 			log.info("Drag and drop operation performed successfully");	
 			logger.pass("Drag and drop operation performed successfully");
@@ -54,7 +54,7 @@ public class Assignment1_DemoQA extends BaseClass
 			
 			String Actual = datepick.ActualValue;
 			
-			Assert.assertEquals(Actual, ""+dateandtime+"");
+			Assert.assertEquals("abc", ""+dateandtime+"");
 			
 			log.info("Date of Birth selected successfully");
 			logger.pass("Date of Birth selected successfully");

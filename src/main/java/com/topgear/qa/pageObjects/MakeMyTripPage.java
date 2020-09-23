@@ -20,13 +20,12 @@ import com.topgear.qa.xpaths.MakeMyTripPageXpath;
 
 public class MakeMyTripPage  extends BaseClass   implements MakeMyTripPageXpath 
 {
-	private static Logger log = LogManager.getLogger(MakeMyTripPage.class);
-
-	String depPrice = null;
-    String retPrice = null;
-    public String reviewMsg = null;
-	WebDriver driver 	= null;
-	BaseClass baseClass = null;
+	private static Logger log 	= LogManager.getLogger(MakeMyTripPage.class);
+	public String reviewMsg 	= null;
+	String depPrice 			= null;
+    String retPrice 			= null;
+	WebDriver driver 			= null;
+	BaseClass baseClass 		= null;
 	
 
 	public MakeMyTripPage(BaseClass baseClass)

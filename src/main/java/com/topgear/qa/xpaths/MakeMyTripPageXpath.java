@@ -12,13 +12,13 @@ public interface MakeMyTripPageXpath
 	public static By roundwayRadioButton	= By.xpath("//li[@data-cy='roundTrip']");
 	
 	
-	public static By fromCity					= By.xpath("//*[@id='fromCity']");
+	public static By fromCity				= By.xpath("//*[@id='fromCity']");
 	public static String cityName			=	"//p[contains(text(),'%s')]";
-	public static By toCity						= By.xpath("//span[text()='To']");
+	public static By toCity					= By.xpath("//span[text()='To']");
 	
 	public static By departureDate			= By.xpath("//label[@for='departure']");
-	public static String selectDateFromCal 		= "//div[@class='DayPicker-Day'][@aria-label='%s']";
-	public static By returnDateCal 				= By.xpath("(//span[@class='selectedDateField appendBottom8 pointer'])[2]");
+	public static String selectDateFromCal 	= "//div[@class='DayPicker-Day'][@aria-label='%s']";
+	public static By returnDateCal 			= By.xpath("(//span[@class='selectedDateField appendBottom8 pointer'])[2]");
 	public static By nextButton 			= By.xpath("//span[@class='DayPicker-NavButton DayPicker-NavButton--next']");
 	
 	public static By searchButton			= By.xpath("//a[contains(text(),'Search')]");

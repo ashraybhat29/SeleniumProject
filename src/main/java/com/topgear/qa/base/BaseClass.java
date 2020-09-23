@@ -112,7 +112,7 @@ public class BaseClass {
 
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@AfterMethod
@@ -131,7 +131,7 @@ public class BaseClass {
 			logger.fail("Test Case Failed Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(Status.SKIP,
-					MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
+					MarkupHelper.createLabel(result.getName() + "Test Case Skipped", ExtentColor.ORANGE));
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			logger.log(Status.PASS,
 					MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));

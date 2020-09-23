@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="122.951" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="138.618" tests="6" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,10 +64,46 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC01_verifyDragAndDrop" classname="testCases.Assignment1_DemoQA" time="4.165"/>
-  <testcase name="TC02_verifyDatePicker" classname="testCases.Assignment1_DemoQA" time="7.527"/>
-  <testcase name="TC03_verifySelectable" classname="testCases.Assignment1_DemoQA" time="3.285"/>
-  <testcase name="TC04_verifySelectMenu" classname="testCases.Assignment1_DemoQA" time="3.717"/>
-  <testcase name="TC05_verifyPracticeForm" classname="testCases.Assignment1_DemoQA" time="5.899"/>
-  <testcase name="bookTikcet" classname="testCases.Assignment2_MakeMyTrip" time="51.355"/>
+  <testcase name="TC01_verifyDragAndDrop" classname="testCases.Assignment1_DemoQA" time="3.629"/>
+  <testcase name="TC02_verifyDatePicker" classname="testCases.Assignment1_DemoQA" time="8.109"/>
+  <testcase name="TC03_verifySelectable" classname="testCases.Assignment1_DemoQA" time="4.134"/>
+  <testcase name="TC04_verifySelectMenu" classname="testCases.Assignment1_DemoQA" time="4.082"/>
+  <testcase name="TC05_verifyPracticeForm" classname="testCases.Assignment1_DemoQA" time="6.41"/>
+  <testcase name="bookTikcet" classname="testCases.Assignment2_MakeMyTrip" time="64.792">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //button[contains(text(),&apos;Continue&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-RKHPL37&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2213a892ca8844a8b92302c043f7999d&#10;*** Element info: {Using=xpath, value= //button[contains(text(),&apos;Continue&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":" //button[contains(text(),'Continue')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RKHPL37', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2213a892ca8844a8b92302c043f7999d
+*** Element info: {Using=xpath, value= //button[contains(text(),'Continue')]}
+	at testCases.Assignment2_MakeMyTrip.bookTikcet(Assignment2_MakeMyTrip.java:53)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-09-19 21:46:51.066 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
+[INFO ] 2020-09-19 21:46:52.825 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
+[INFO ] 2020-09-19 21:47:01.090 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
+[INFO ] 2020-09-19 21:47:02.314 [main] Assignment2_MakeMyTrip - Roundway Selected
+[INFO ] 2020-09-19 21:47:04.043 [main] Assignment2_MakeMyTrip - Selected From and To City
+[INFO ] 2020-09-19 21:47:25.430 [main] Assignment2_MakeMyTrip - Departure Date seleted
+[INFO ] 2020-09-19 21:47:26.545 [main] Assignment2_MakeMyTrip - Return Date seleted
+[INFO ] 2020-09-19 21:47:30.431 [main] Assignment2_MakeMyTrip - Clicked on Search Button
+1
+2
+3
+4
+price dep? 2,955
+price ret? 2,644
+parent windowCDwindow-08A539D4D829ADBED2B25E12CB15F141
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29711
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 19, 2020 9:46:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

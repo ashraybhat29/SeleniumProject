@@ -1,20 +1,27 @@
-[INFO ] 2020-09-19 20:36:44.412 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
-[INFO ] 2020-09-19 20:36:47.518 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
-[INFO ] 2020-09-19 20:36:54.930 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
-[INFO ] 2020-09-19 20:36:55.960 [main] Assignment2_MakeMyTrip - Roundway Selected
-[INFO ] 2020-09-19 20:36:57.650 [main] Assignment2_MakeMyTrip - Selected From and To City
-[INFO ] 2020-09-19 20:37:19.203 [main] Assignment2_MakeMyTrip - Departure Date seleted
-[INFO ] 2020-09-19 20:37:20.175 [main] Assignment2_MakeMyTrip - Return Date seleted
-[INFO ] 2020-09-19 20:37:25.107 [main] Assignment2_MakeMyTrip - Clicked on Search Button
-[INFO ] 2020-09-19 20:37:34.839 [main] Assignment2_MakeMyTrip - Seleted Low Price
-[INFO ] 2020-09-19 20:37:35.354 [main] Assignment2_MakeMyTrip - Review Page loaded
-[INFO ] 2020-09-19 20:43:35.501 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
-[INFO ] 2020-09-19 20:43:37.541 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
-[INFO ] 2020-09-19 20:43:45.862 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
-[INFO ] 2020-09-19 20:43:46.880 [main] Assignment2_MakeMyTrip - Roundway Selected
-[INFO ] 2020-09-19 20:43:48.479 [main] Assignment2_MakeMyTrip - Selected From and To City
-[INFO ] 2020-09-19 20:44:09.823 [main] Assignment2_MakeMyTrip - Departure Date seleted
-[INFO ] 2020-09-19 20:44:10.722 [main] Assignment2_MakeMyTrip - Return Date seleted
-[INFO ] 2020-09-19 20:44:14.147 [main] Assignment2_MakeMyTrip - Clicked on Search Button
-[INFO ] 2020-09-19 20:44:24.256 [main] Assignment2_MakeMyTrip - Seleted Low Price
-[INFO ] 2020-09-19 20:44:24.926 [main] Assignment2_MakeMyTrip - Review Page loaded
+[INFO ] 2020-09-20 16:41:21.283 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:41:24.443 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:41:32.071 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:41:34.842 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:41:41.906 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:41:44.711 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:43:12.021 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:43:15.031 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:43:22.983 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:43:25.786 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:43:32.746 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-20 16:43:35.888 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-20 16:43:44.724 [main] Assignment1_DemoQA - ***********TC02_verifyDatePicker***************
+[INFO ] 2020-09-20 16:43:47.763 [main] Assignment1_DemoQA - DatePicker page is loaded
+[INFO ] 2020-09-20 16:43:59.295 [main] Assignment1_DemoQA - ***********TC02_verifyDatePicker***************
+[INFO ] 2020-09-20 16:44:02.226 [main] Assignment1_DemoQA - DatePicker page is loaded
+[INFO ] 2020-09-20 16:44:13.599 [main] Assignment1_DemoQA - ***********TC02_verifyDatePicker***************
+[INFO ] 2020-09-20 16:44:16.572 [main] Assignment1_DemoQA - DatePicker page is loaded
+[INFO ] 2020-09-20 16:44:28.688 [main] Assignment1_DemoQA - ***********TC03_verifySelectable***************
+[INFO ] 2020-09-20 16:44:31.669 [main] Assignment1_DemoQA - selectable page is loaded
+[INFO ] 2020-09-20 16:44:32.064 [main] Assignment1_DemoQA - All 4 Items selected successfully
+[INFO ] 2020-09-20 16:44:39.703 [main] Assignment1_DemoQA - ***********TC04_verifySelectMenu***************
+[INFO ] 2020-09-20 16:44:42.448 [main] Assignment1_DemoQA - selectmenu page is loaded
+[INFO ] 2020-09-20 16:44:43.266 [main] Assignment1_DemoQA - Selection performed successfully
+[INFO ] 2020-09-20 16:44:50.248 [main] Assignment1_DemoQA - ***********TC05_verifyPracticeForm***************
+[INFO ] 2020-09-20 16:44:53.867 [main] Assignment1_DemoQA - Practice Form page is loaded
+[INFO ] 2020-09-20 16:44:56.500 [main] Assignment1_DemoQA - Practice Form filled and submitted successfully

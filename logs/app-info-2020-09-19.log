@@ -1,0 +1,43 @@
+[INFO ] 2020-09-19 21:43:54.621 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
+[INFO ] 2020-09-19 21:43:56.968 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
+[INFO ] 2020-09-19 21:44:05.538 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
+[INFO ] 2020-09-19 21:44:06.771 [main] Assignment2_MakeMyTrip - Roundway Selected
+[INFO ] 2020-09-19 21:44:08.890 [main] Assignment2_MakeMyTrip - Selected From and To City
+[INFO ] 2020-09-19 21:44:30.586 [main] Assignment2_MakeMyTrip - Departure Date seleted
+[INFO ] 2020-09-19 21:44:31.582 [main] Assignment2_MakeMyTrip - Return Date seleted
+[INFO ] 2020-09-19 21:44:37.307 [main] Assignment2_MakeMyTrip - Clicked on Search Button
+[INFO ] 2020-09-19 21:44:47.071 [main] Assignment2_MakeMyTrip - Seleted Low Price
+[INFO ] 2020-09-19 21:44:47.531 [main] Assignment2_MakeMyTrip - Review Page loaded
+[INFO ] 2020-09-19 21:45:47.726 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2020-09-19 21:45:50.719 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2020-09-19 21:45:51.343 [main] Assignment1_DemoQA - Drag and drop operation performed successfully
+[INFO ] 2020-09-19 21:45:59.663 [main] Assignment1_DemoQA - ***********TC02_verifyDatePicker***************
+[INFO ] 2020-09-19 21:46:02.426 [main] Assignment1_DemoQA - DatePicker page is loaded
+[INFO ] 2020-09-19 21:46:07.764 [main] Assignment1_DemoQA - Date of Birth selected successfully
+[INFO ] 2020-09-19 21:46:14.667 [main] Assignment1_DemoQA - ***********TC03_verifySelectable***************
+[INFO ] 2020-09-19 21:46:18.204 [main] Assignment1_DemoQA - selectable page is loaded
+[INFO ] 2020-09-19 21:46:18.796 [main] Assignment1_DemoQA - All 4 Items selected successfully
+[INFO ] 2020-09-19 21:46:26.187 [main] Assignment1_DemoQA - ***********TC04_verifySelectMenu***************
+[INFO ] 2020-09-19 21:46:29.202 [main] Assignment1_DemoQA - selectmenu page is loaded
+[INFO ] 2020-09-19 21:46:30.262 [main] Assignment1_DemoQA - Selection performed successfully
+[INFO ] 2020-09-19 21:46:37.457 [main] Assignment1_DemoQA - ***********TC05_verifyPracticeForm***************
+[INFO ] 2020-09-19 21:46:41.392 [main] Assignment1_DemoQA - Practice Form page is loaded
+[INFO ] 2020-09-19 21:46:43.849 [main] Assignment1_DemoQA - Practice Form filled and submitted successfully
+[INFO ] 2020-09-19 21:46:51.066 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
+[INFO ] 2020-09-19 21:46:52.825 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
+[INFO ] 2020-09-19 21:47:01.090 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
+[INFO ] 2020-09-19 21:47:02.314 [main] Assignment2_MakeMyTrip - Roundway Selected
+[INFO ] 2020-09-19 21:47:04.043 [main] Assignment2_MakeMyTrip - Selected From and To City
+[INFO ] 2020-09-19 21:47:25.430 [main] Assignment2_MakeMyTrip - Departure Date seleted
+[INFO ] 2020-09-19 21:47:26.545 [main] Assignment2_MakeMyTrip - Return Date seleted
+[INFO ] 2020-09-19 21:47:30.431 [main] Assignment2_MakeMyTrip - Clicked on Search Button
+[INFO ] 2020-09-19 21:55:26.065 [main] Assignment2_MakeMyTrip - ***********TC01_Book_Ticket_MakeMyTrip***************
+[INFO ] 2020-09-19 21:55:27.688 [main] Assignment2_MakeMyTrip - Make My Trip page loaded
+[INFO ] 2020-09-19 21:55:36.153 [main] Assignment2_MakeMyTrip - Iframe has been identified and closed
+[INFO ] 2020-09-19 21:55:37.325 [main] Assignment2_MakeMyTrip - Roundway Selected
+[INFO ] 2020-09-19 21:55:39.064 [main] Assignment2_MakeMyTrip - Selected From and To City
+[INFO ] 2020-09-19 21:56:10.753 [main] Assignment2_MakeMyTrip - Departure Date seleted
+[INFO ] 2020-09-19 21:56:11.920 [main] Assignment2_MakeMyTrip - Return Date seleted
+[INFO ] 2020-09-19 21:56:15.875 [main] Assignment2_MakeMyTrip - Clicked on Search Button
+[INFO ] 2020-09-19 21:56:26.534 [main] Assignment2_MakeMyTrip - Seleted Low Price
+[INFO ] 2020-09-19 21:56:27.113 [main] Assignment2_MakeMyTrip - Review Page loaded
