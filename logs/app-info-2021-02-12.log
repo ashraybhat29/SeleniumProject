@@ -1,0 +1,13 @@
+[INFO ] 2021-02-12 16:10:16.328 [main] Assignment1_DemoQA - ***********TC01_verifyDragAndDrop***************
+[INFO ] 2021-02-12 16:10:25.220 [main] Assignment1_DemoQA - Drag and drop page is loaded
+[INFO ] 2021-02-12 16:10:33.211 [main] Assignment1_DemoQA - ***********TC02_verifyDatePicker***************
+[INFO ] 2021-02-12 16:10:42.282 [main] Assignment1_DemoQA - DatePicker page is loaded
+[INFO ] 2021-02-12 16:10:52.393 [main] Assignment1_DemoQA - ***********TC03_verifySelectable***************
+[INFO ] 2021-02-12 16:11:02.351 [main] Assignment1_DemoQA - selectable page is loaded
+[INFO ] 2021-02-12 16:11:02.850 [main] Assignment1_DemoQA - All 4 Items selected successfully
+[INFO ] 2021-02-12 16:11:06.708 [main] Assignment1_DemoQA - ***********TC04_verifySelectMenu***************
+[INFO ] 2021-02-12 16:11:10.735 [main] Assignment1_DemoQA - selectmenu page is loaded
+[INFO ] 2021-02-12 16:11:11.551 [main] Assignment1_DemoQA - Selection performed successfully
+[INFO ] 2021-02-12 16:11:15.525 [main] Assignment1_DemoQA - ***********TC05_verifyPracticeForm***************
+[INFO ] 2021-02-12 16:11:24.708 [main] Assignment1_DemoQA - Practice Form page is loaded
+[INFO ] 2021-02-12 16:11:26.938 [main] Assignment1_DemoQA - Practice Form filled and submitted successfully

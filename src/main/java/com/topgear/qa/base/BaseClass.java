@@ -95,7 +95,7 @@ public class BaseClass {
 
 		if (webBrowser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-					+ "\\src\\main\\java\\com\\topgear\\qa\\resources\\chromedriver_85.exe");
+					+ "\\src\\main\\java\\com\\topgear\\qa\\resources\\chromedriver_90.exe");
 			driver = new ChromeDriver();
 			Reporter.log("Opened Chrome Browser");
 		} else if (webBrowser.equalsIgnoreCase("firefox")) {

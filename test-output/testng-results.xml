@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" retried="4" total="9" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Opened Chrome Browser]]>
@@ -16,29 +16,17 @@
     <line>
       <![CDATA[Opened Chrome Browser]]>
     </line>
-    <line>
-      <![CDATA[Opened Chrome Browser]]>
-    </line>
-    <line>
-      <![CDATA[Opened Chrome Browser]]>
-    </line>
-    <line>
-      <![CDATA[Opened Chrome Browser]]>
-    </line>
-    <line>
-      <![CDATA[Opened Chrome Browser]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="113780" started-at="2020-09-20T16:43:04 IST" finished-at="2020-09-20T16:44:58 IST">
+  <suite name="Default suite" duration-ms="57270" started-at="2021-05-14T16:50:01 IST" finished-at="2021-05-14T16:50:58 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="113780" started-at="2020-09-20T16:43:04 IST" finished-at="2020-09-20T16:44:58 IST">
+    <test name="Default test" duration-ms="57270" started-at="2021-05-14T16:50:01 IST" finished-at="2021-05-14T16:50:58 IST">
       <class name="testCases.Assignment1_DemoQA">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="setUpSuite" is-config="true" duration-ms="120" started-at="2020-09-20T16:43:04 IST" finished-at="2020-09-20T16:43:05 IST">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="setUpSuite" is-config="true" duration-ms="238" started-at="2021-05-14T16:50:01 IST" finished-at="2021-05-14T16:50:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="6917" started-at="2020-09-20T16:43:05 IST" finished-at="2020-09-20T16:43:11 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="4682" started-at="2021-05-14T16:50:01 IST" finished-at="2021-05-14T16:50:06 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -55,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC01_verifyDragAndDrop" duration-ms="3528" retried="true" started-at="2020-09-20T16:43:11 IST" description="Verify drag and drop" finished-at="2020-09-20T16:43:15 IST">
+        <test-method status="FAIL" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC01_verifyDragAndDrop" duration-ms="5578" started-at="2021-05-14T16:50:06 IST" description="Verify drag and drop" finished-at="2021-05-14T16:50:12 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Dropped] but found [Dropped!]]]>
@@ -102,168 +90,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_verifyDragAndDrop -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="1804" started-at="2020-09-20T16:43:15 IST" finished-at="2020-09-20T16:43:17 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1922" started-at="2021-05-14T16:50:12 IST" finished-at="2021-05-14T16:50:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_verifyDragAndDrop status=SKIP method=Assignment1_DemoQA.TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_verifyDragAndDrop status=FAILURE method=Assignment1_DemoQA.TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5652" started-at="2020-09-20T16:43:17 IST" finished-at="2020-09-20T16:43:22 IST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened Chrome Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC01_verifyDragAndDrop" duration-ms="3292" retried="true" started-at="2020-09-20T16:43:22 IST" description="Verify drag and drop" finished-at="2020-09-20T16:43:26 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Dropped] but found [Dropped!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Dropped] but found [Dropped!]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop(Assignment1_DemoQA.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_verifyDragAndDrop -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="843" started-at="2020-09-20T16:43:26 IST" finished-at="2020-09-20T16:43:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC01_verifyDragAndDrop status=SKIP method=Assignment1_DemoQA.TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5624" started-at="2020-09-20T16:43:27 IST" finished-at="2020-09-20T16:43:32 IST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened Chrome Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC01_verifyDragAndDrop" duration-ms="3657" started-at="2020-09-20T16:43:32 IST" description="Verify drag and drop" finished-at="2020-09-20T16:43:36 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Dropped] but found [Dropped!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Dropped] but found [Dropped!]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop(Assignment1_DemoQA.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_verifyDragAndDrop -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="1234" started-at="2020-09-20T16:43:36 IST" finished-at="2020-09-20T16:43:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC01_verifyDragAndDrop status=FAILURE method=Assignment1_DemoQA.TC01_verifyDragAndDrop()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5661" started-at="2020-09-20T16:43:39 IST" finished-at="2020-09-20T16:43:44 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="2313" started-at="2021-05-14T16:50:15 IST" finished-at="2021-05-14T16:50:17 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -280,7 +118,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method name="TC02_verifyDatePicker" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" retried="true" duration-ms="7951" status="SKIP" finished-at="2020-09-20T16:43:52 IST" started-at="2020-09-20T16:43:44 IST" data-provider="tc02TestData" description="Verify DatePicker">
+        <test-method status="FAIL" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC02_verifyDatePicker" duration-ms="9521" started-at="2021-05-14T16:50:17 IST" description="Verify DatePicker" data-provider="tc02TestData" finished-at="2021-05-14T16:50:27 IST">
           <params>
             <param index="0">
               <value>
@@ -349,212 +187,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_verifyDatePicker -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="848" started-at="2020-09-20T16:43:52 IST" finished-at="2020-09-20T16:43:53 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1028" started-at="2021-05-14T16:50:27 IST" finished-at="2021-05-14T16:50:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC02_verifyDatePicker status=SKIP method=Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
+                <![CDATA[[TestResult name=TC02_verifyDatePicker status=FAILURE method=Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5679" started-at="2020-09-20T16:43:53 IST" finished-at="2020-09-20T16:43:59 IST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened Chrome Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method name="TC02_verifyDatePicker" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" retried="true" duration-ms="7797" status="SKIP" finished-at="2020-09-20T16:44:07 IST" started-at="2020-09-20T16:43:59 IST" data-provider="tc02TestData" description="Verify DatePicker">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[June]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[29]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1989]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[June 29, 1989 11:00 AM]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [June 29, 1989 11:00 AM] but found [abc]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [June 29, 1989 11:00 AM] but found [abc]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:57)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_verifyDatePicker -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="957" started-at="2020-09-20T16:44:07 IST" finished-at="2020-09-20T16:44:08 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC02_verifyDatePicker status=SKIP method=Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5479" started-at="2020-09-20T16:44:08 IST" finished-at="2020-09-20T16:44:13 IST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened Chrome Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC02_verifyDatePicker" duration-ms="7898" started-at="2020-09-20T16:44:13 IST" description="Verify DatePicker" data-provider="tc02TestData" finished-at="2020-09-20T16:44:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[June]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[29]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1989]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[June 29, 1989 11:00 AM]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [June 29, 1989 11:00 AM] but found [abc]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [June 29, 1989 11:00 AM] but found [abc]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:57)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_verifyDatePicker -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="1430" started-at="2020-09-20T16:44:21 IST" finished-at="2020-09-20T16:44:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC02_verifyDatePicker status=FAILURE method=Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5757" started-at="2020-09-20T16:44:22 IST" finished-at="2020-09-20T16:44:28 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="2610" started-at="2021-05-14T16:50:28 IST" finished-at="2021-05-14T16:50:31 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -571,22 +215,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC03_verifySelectable" duration-ms="3378" started-at="2020-09-20T16:44:28 IST" description="Verify Selectable" finished-at="2020-09-20T16:44:32 IST">
+        <test-method status="PASS" signature="TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC03_verifySelectable" duration-ms="5245" started-at="2021-05-14T16:50:31 IST" description="Verify Selectable" finished-at="2021-05-14T16:50:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_verifySelectable -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="2001" started-at="2020-09-20T16:44:32 IST" finished-at="2020-09-20T16:44:34 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1659" started-at="2021-05-14T16:50:36 IST" finished-at="2021-05-14T16:50:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC03_verifySelectable status=SUCCESS method=Assignment1_DemoQA.TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
+                <![CDATA[[TestResult name=TC03_verifySelectable status=SUCCESS method=Assignment1_DemoQA.TC03_verifySelectable()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5634" started-at="2020-09-20T16:44:34 IST" finished-at="2020-09-20T16:44:39 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="2334" started-at="2021-05-14T16:50:37 IST" finished-at="2021-05-14T16:50:40 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -603,22 +247,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC04_verifySelectMenu" duration-ms="3566" started-at="2020-09-20T16:44:39 IST" description="Verify Select-Menu" finished-at="2020-09-20T16:44:43 IST">
+        <test-method status="PASS" signature="TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC04_verifySelectMenu" duration-ms="5831" started-at="2021-05-14T16:50:40 IST" description="Verify Select-Menu" finished-at="2021-05-14T16:50:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_verifySelectMenu -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="1286" started-at="2020-09-20T16:44:43 IST" finished-at="2020-09-20T16:44:44 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1049" started-at="2021-05-14T16:50:46 IST" finished-at="2021-05-14T16:50:47 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC04_verifySelectMenu status=SUCCESS method=Assignment1_DemoQA.TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
+                <![CDATA[[TestResult name=TC04_verifySelectMenu status=SUCCESS method=Assignment1_DemoQA.TC04_verifySelectMenu()[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="beforeMethod" is-config="true" duration-ms="5624" started-at="2020-09-20T16:44:44 IST" finished-at="2020-09-20T16:44:50 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="beforeMethod" is-config="true" duration-ms="2209" started-at="2021-05-14T16:50:47 IST" finished-at="2021-05-14T16:50:49 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -635,7 +279,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="TC05_verifyPracticeForm" duration-ms="6255" started-at="2020-09-20T16:44:50 IST" description="Verify Practice Form" data-provider="tc05TestData" finished-at="2020-09-20T16:44:56 IST">
+        <test-method status="PASS" signature="TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="TC05_verifyPracticeForm" duration-ms="7988" started-at="2021-05-14T16:50:49 IST" description="Verify Practice Form" data-provider="tc05TestData" finished-at="2021-05-14T16:50:57 IST">
           <params>
             <param index="0">
               <value>
@@ -696,11 +340,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_verifyPracticeForm -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace]" name="getResult" is-config="true" duration-ms="2184" started-at="2020-09-20T16:44:56 IST" finished-at="2020-09-20T16:44:58 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d]" name="getResult" is-config="true" duration-ms="1263" started-at="2021-05-14T16:50:57 IST" finished-at="2021-05-14T16:50:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC05_verifyPracticeForm status=SUCCESS method=Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@63475ace] output={null}]]]>
+                <![CDATA[[TestResult name=TC05_verifyPracticeForm status=SUCCESS method=Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Assignment1_DemoQA@c0c2f8d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -708,6 +352,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- getResult -->
       </class> <!-- testCases.Assignment1_DemoQA -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
