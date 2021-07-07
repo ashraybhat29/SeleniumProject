@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-907918571\testng-customsuite.xml</span>
+                    <span>C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--1170358502\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -110,6 +110,11 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)">TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)">TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -129,11 +134,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC04_verifySelectMenu">TC04_verifySelectMenu</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.Assignment1_DemoQA" hash-for-method="TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)">TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -206,13 +206,27 @@
                   </a> <!-- TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM) -->
                   <span class="method-name">TC02_verifyDatePicker</span>
                   <span class="parameters">(June, 29, 1989, June 29, 1989 11:00 AM)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [June 29, 1989 11:00 AM] but found [abc]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at org.testng.Assert.assertEquals(Assert.java:585)
-	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:57)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;react-datepicker__day react-datepicker__day--0...&quot; tabindex=&quot;-1&quot; aria-label=&quot;Choose Thursday, June 29th, 1989&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot;&gt;29&lt;/div&gt; is not clickable at point (677, 510). Other element would receive the click: &lt;img src=&quot;https://ad.plus/adplus-advertising.svg&quot; alt=&quot;adplus-dvertising&quot; title=&quot;Ad.Plus Advertising&quot; style=&quot;vertical-align:middle&quot;&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HLVHDQ8&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 224c17b1c59642917b9c1b94e0dcb5fe
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.topgear.qa.pageObjects.DemoQADatePickerPage.selectDOB(DemoQADatePickerPage.java:60)
+	at testCases.Assignment1_DemoQA.TC02_verifyDatePicker(Assignment1_DemoQA.java:53)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -247,6 +261,67 @@
 (Verify DatePicker)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)">
+                  </a> <!-- TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi) -->
+                  <span class="method-name">TC05_verifyPracticeForm</span>
+                  <span class="parameters">(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label title=&quot;&quot; for=&quot;hobbies-checkbox-1&quot; class=&quot;custom-control-label&quot;&gt;...&lt;/label&gt; is not clickable at point (570, 542). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://9c7f74040631eae8071efefccd181289.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;728&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; allow=&quot;conversion-measurement&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HLVHDQ8&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90bcd76c485806a4813f0ef4ef3cd669
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.topgear.qa.pageObjects.DemoQAPracticeFormPage.fillForm(DemoQAPracticeFormPage.java:78)
+	at testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(Assignment1_DemoQA.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Practice Form)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
@@ -273,22 +348,12 @@
 (Verify Select-Menu)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)">
-                  </a> <!-- TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi) -->
-                  <span class="method-name">TC05_verifyPracticeForm</span>
-                  <span class="parameters">(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</span>
-                  <em>
-(Verify Practice Form)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-907918571\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--1170358502\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -339,30 +404,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC02_verifyDatePicker')
+data.setCell(0, 1, 'TC05_verifyPracticeForm')
 data.setCell(0, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(0, 3, 9521);
+data.setCell(0, 3, 10155);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC05_verifyPracticeForm')
+data.setCell(1, 1, 'TC02_verifyDatePicker')
 data.setCell(1, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(1, 3, 7988);
+data.setCell(1, 3, 8145);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC04_verifySelectMenu')
+data.setCell(2, 1, 'TC01_verifyDragAndDrop')
 data.setCell(2, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(2, 3, 5831);
+data.setCell(2, 3, 7898);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC01_verifyDragAndDrop')
+data.setCell(3, 1, 'TC04_verifySelectMenu')
 data.setCell(3, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(3, 3, 5578);
+data.setCell(3, 3, 7000);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TC03_verifySelectable')
 data.setCell(4, 2, 'testCases.Assignment1_DemoQA')
-data.setCell(4, 3, 5245);
+data.setCell(4, 3, 6163);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -395,67 +460,69 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC01_verifyDragAndDrop() throws java.lang.Throwable)</span>
-                <span class="method-start">270 ms</span>
+                <span class="method-start">222 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC01_verifyDragAndDrop</span>
-                <span class="method-start">4953 ms</span>
+                <span class="method-start">3778 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC01_verifyDragAndDrop status=FAILURE method=Assignment1_DemoQA.TC01_verifyDragAndD...)</span>
-                <span class="method-start">10537 ms</span>
+                <span class="method-start">11683 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC02_verifyDatePicker(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">14130 ms</span>
+                <span class="method-start">14229 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC02_verifyDatePicker(June, 29, 1989, June 29, 1989 11:00 AM)</span>
-                <span class="method-start">16444 ms</span>
+                <span class="method-start">15754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC02_verifyDatePicker status=FAILURE method=Assignment1_DemoQA.TC02_verifyDatePicke...)</span>
-                <span class="method-start">25968 ms</span>
+                <span class="method-start">23903 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC03_verifySelectable() throws java.lang.Throwable)</span>
-                <span class="method-start">26997 ms</span>
+                <span class="method-start">25138 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC03_verifySelectable</span>
-                <span class="method-start">29607 ms</span>
+                <span class="method-start">26673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC03_verifySelectable status=SUCCESS method=Assignment1_DemoQA.TC03_verifySelectabl...)</span>
-                <span class="method-start">34853 ms</span>
+                <span class="method-start">32838 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC04_verifySelectMenu() throws java.lang.Throwable)</span>
-                <span class="method-start">36512 ms</span>
+                <span class="method-start">34041 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC04_verifySelectMenu</span>
-                <span class="method-start">38846 ms</span>
+                <span class="method-start">35673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC04_verifySelectMenu status=SUCCESS method=Assignment1_DemoQA.TC04_verifySelectMen...)</span>
-                <span class="method-start">44680 ms</span>
+                <span class="method-start">42675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(null, public void testCases.Assignment1_DemoQA.TC05_verifyPracticeForm(java.lang.String,java.lang.St...)</span>
-                <span class="method-start">45796 ms</span>
+                <span class="method-start">43795 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">TC05_verifyPracticeForm(Ashray, bhat, ashray@gmail.com, Male, 7760242416, June, 29, 1989, Computer, Sports, Udupi)</span>
-                <span class="method-start">48005 ms</span>
+                <span class="method-start">45400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=TC05_verifyPracticeForm status=SUCCESS method=Assignment1_DemoQA.TC05_verifyPractic...)</span>
-                <span class="method-start">55995 ms</span>
+                <span class="method-name">getResult([TestResult name=TC05_verifyPracticeForm status=FAILURE method=Assignment1_DemoQA.TC05_verifyPractic...)</span>
+                <span class="method-start">55559 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

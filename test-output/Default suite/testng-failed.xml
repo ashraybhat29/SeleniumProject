@@ -6,6 +6,7 @@
       <class name="testCases.Assignment1_DemoQA">
         <methods>
           <include name="TC02_verifyDatePicker" invocation-numbers="0"/>
+          <include name="TC05_verifyPracticeForm" invocation-numbers="0"/>
           <include name="getResult"/>
           <include name="TC01_verifyDragAndDrop"/>
           <include name="setUpSuite"/>
